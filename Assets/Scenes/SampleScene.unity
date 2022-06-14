@@ -1549,7 +1549,6 @@ GameObject:
   - component: {fileID: 1299081602}
   - component: {fileID: 1299081601}
   - component: {fileID: 1299081605}
-  - component: {fileID: 1299081606}
   - component: {fileID: 1299081607}
   m_Layer: 0
   m_Name: Enemigo
@@ -1646,21 +1645,6 @@ MonoBehaviour:
   Ctrl: {fileID: 0}
   Kills: {fileID: 556698400}
   SonidoMuerte: {fileID: 8300000, guid: 76461b7b52d63bb49ad529ef36b23a36, type: 3}
---- !u!114 &1299081606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299081600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce5e66592869d7f4eb4ea35100ef1ea5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SonidoSalto: {fileID: 0}
-  SonidoEmpieza: {fileID: 0}
-  SonidoDisparo: {fileID: 0}
 --- !u!82 &1299081607
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1672,7 +1656,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 76461b7b52d63bb49ad529ef36b23a36, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
